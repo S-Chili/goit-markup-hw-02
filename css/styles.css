@@ -28,9 +28,6 @@
 }
 
 /* site-nav */
-.main-logo {
-    text-decoration: none;
-}
 
 .blue-logo {
     color: var(--accent-color);
@@ -215,3 +212,6 @@
     list-style: none;
 }
 
+.main-logo {
+    text-decoration: none;
+}
