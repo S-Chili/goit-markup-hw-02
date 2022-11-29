@@ -28,6 +28,9 @@
 }
 
 /* site-nav */
+.main-logo {
+    text-decoration: none;
+}
 
 .blue-logo {
     color: var(--accent-color);
@@ -91,6 +94,7 @@
 
 .features .title {
     color: var(--title-text-color);
+    font-size: 14px;
     line-height: 1.14;
     font-weight: 700;
 }
