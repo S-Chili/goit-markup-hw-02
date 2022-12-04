@@ -27,6 +27,10 @@
     letter-spacing: 0.03em;
 }
 
+.portfolio {
+    margin-bottom: 94px;
+}
+
 /* site-nav */
 
 .blue-logo {
@@ -81,23 +85,42 @@
     color: var(--accent-color);
 }
 
+.decision {
+    text-align: center;
+    margin-bottom: 94px;
+}
+
 /* decision hero */
 .decision-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     color: var(--white-color);
     background-color: var(--grey-background);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
 }
 
 /* features */
 
+.features {
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+
+.features-none {
+    margin: 0;
+}
+
+.title {
+    margin-top: 0;
+}
+
 .features .title {
+
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
@@ -106,7 +129,13 @@
 
 /* section */
 
+.section {
+    padding-bottom: 0;
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -118,12 +147,15 @@
 
 .stuff {
     background-color: var(--tittle-background-color);
+    margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* button */
 
 .button {
-    display: block;
+    display: inline-block;
     border-radius: 4px;
     padding: 10px 32px;
     color: var(--white-color);
@@ -141,6 +173,9 @@
 /* team */
 
 .team-member {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -148,6 +183,8 @@
 }
 
 .name {
+    margin-top: 20px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -155,6 +192,8 @@
 }
 
 .team-job {
+    margin: 0;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -162,12 +201,16 @@
 .text {
     font-size: 16px;
     line-height: 1.9;
+    margin: 0;
+    padding-bottom: 20px;
 }
 
 .hero {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
 
 .filter-button {
     display: block;
@@ -199,6 +242,7 @@
 }
 
 .footer-item {
+    margin-bottom: 9px;
     color: var(--white-color);
     font-style: normal;
     text-decoration: none;
@@ -210,6 +254,9 @@
 }
 
 .logo-footer {
+    margin: 0;
+    padding-top: 60px;
+    margin-bottom: 20px;
     color: var(--white-color);
     font-family: Raleway;
     font-weight: 700;
@@ -218,6 +265,7 @@
 }
 
 .footer-address {
+    margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
@@ -230,8 +278,18 @@
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filter {
+    margin-bottom: 34px;
 }
 
 .main-logo {
     text-decoration: none;
+}
+
+.end {
+    padding-bottom: 60px;
 }
