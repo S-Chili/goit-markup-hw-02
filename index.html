@@ -19,24 +19,28 @@
   </head>
   <body class="page">
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container main-page">
+        <nav class="main-page">
           <a href="./index.html" class="main-logo"
             ><p class="logo"><span class="blue-logo">Web</span>Studio</p></a
           >
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+            <li class="nav-item">
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="nav-item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="nav__item list">
-          <li>
+        <ul class="nav__item list" style="margin-top: 0; margin-bottom: 0">
+          <li class="nav-item">
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="nav-item">
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -56,28 +60,28 @@
         <div class="container">
           <!--прихований заголовок, не забути-->
           <h2 class="features-none">Особливості</h2>
-          <ul class="list">
-            <li>
+          <ul class="feat-list list">
+            <li class="features-item">
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="list">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="list">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="title">ПЛАНУВАННЯ</h3>
               <p class="list">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="list">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -91,22 +95,22 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="examples list">
+            <li class="examples-item">
               <img
                 src="./images/projectdesign.jpg"
                 alt="верстка сайту на планшеті та комп'ютері"
                 width="370"
               />
             </li>
-            <li>
+            <li examples-item>
               <img
                 src="./images/adaptdesign.jpg"
                 alt="телефон та ноутбук з проєктом дизайну"
                 width="370"
               />
             </li>
-            <li>
+            <li examples-item>
               <img
                 src="./images/colorscheme.jpg"
                 alt="планшет з кольоровою гамою"
@@ -120,7 +124,7 @@
       <section class="section stuff">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
+          <ul class="stuff-list list">
             <li>
               <img
                 src="./images/productdesigner.jpg"
